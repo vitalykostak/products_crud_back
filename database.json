@@ -1,0 +1,13 @@
+{
+  "dev": {
+    "driver": "pg",
+    "user": "klyhnlxbesmzjm",
+    "password": "ce5660a571109397df6179afd2c8b2f38d751fa5d2e5856e81fe0bd470f25046",
+    "host": "ec2-54-195-246-55.eu-west-1.compute.amazonaws.com",
+    "database": "de63j5eim70jrl",
+    "port": 5432,
+    "ssl": {
+      "rejectUnauthorized": false
+    }
+  }
+}

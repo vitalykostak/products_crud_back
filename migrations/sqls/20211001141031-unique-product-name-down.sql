@@ -1,0 +1,2 @@
+ALTER TABLE products
+DROP CONSTRAINT products_product_name_key

@@ -1,0 +1,29 @@
+{
+  "name": "hot-dog-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "db-migrate": "node node_modules/db-migrate/bin/db-migrate"
+  },
+  "keywords": [
+    "express",
+    "postgre"
+  ],
+  "author": "Vitaly Kostak [vitalykostak@gmail.com]",
+  "license": "ISC",
+  "dependencies": {
+    "db-migrate": "^1.0.0-beta.16",
+    "db-migrate-pg": "^1.2.2",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.2",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
