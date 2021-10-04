@@ -23,11 +23,6 @@ class ProductController {
     try {
       RequestHelper.checkValidFields(req);
       const { product_id, ...fields } = req.body;
-      if (
-        await ProductService.isExistsProductWithTheName(fields.product_name)
-      ) {
-        throw ApiException.ResourceExists();
-      }
       const updatedProduct = await ProductService.update(product_id, fields);
       return res.status(200).json({ updatedProduct });
     } catch (e) {
